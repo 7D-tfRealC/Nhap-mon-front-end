@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+    
+
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+
+}
+
+.full-container {
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+
+
+}
+
+.container p {
+    font-size: 1.5rem;
+}
+
+header {
+    width: 100%;
+
+
+}
+
+.header-top {
+    display: flex;
+
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.more a {
+    padding: 30px;
+
+}
+
+.more p {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #CC9615;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    margin: 0;
+    color: aliceblue;
+
+}
+
+.cont-1,
+.cont-2,
+.cont-3,
+.cont-4,
+.cont-5 {
+    display: flex;
+
+}
+
+.cont-3,
+.cont-4,
+.cont-5 {
+
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+
+}
+
+.cont-a {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.cont-a img {
+    width: 265px;
+    height: 149px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cont-b {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+
+
+}
+
+.sidebar {
+    padding: 20px;
+    margin: 20px;
+}
+
+.poster img {
+    width: 300px;
+    height: 500px;
+}
+
+.poster img {}
+
+.new-a {}
+
+.new-b h4 {
+    padding: 20px;
+}
+
+.cont-6,
+.cont-7 {
+    display: flex;
+    padding: 20px;
+}
+
+
+
+.cont-a-b {
+    flex: 1;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.cont-1-a img {
+    border-radius: 20px;
+}
+
+.cont-1-b {
+    padding: 20px;
+}
+
+.cont-1-b img {
+    border-radius: 20px;
+}
+
+.new-b h4 {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.footer-content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    
+}
+
+.about-0,
+.about-1,
+.about-2 {
+    margin: 0 20px;
+}
+.footer-content p{
+    padding: 10px;
+}
+.footer-bottom {
+    text-align: center;
+}

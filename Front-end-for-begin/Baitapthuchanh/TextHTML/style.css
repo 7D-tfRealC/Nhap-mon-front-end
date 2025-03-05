@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+    list-style: none;
+}
+img{
+    width: 50%;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
